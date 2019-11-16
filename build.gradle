@@ -1,0 +1,15 @@
+plugins {
+	id 'java'
+}
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	implementation group: 'org.json', name: 'json', version: '20190722'
+	implementation group: 'org.sejda.imageio', name: 'webp-imageio', version: '0.1.1'
+	implementation group: 'net.coobird', name: 'thumbnailator', version: '0.4.8'
+}
+
+sourceCompatibility = targetCompatibility = 1.12
